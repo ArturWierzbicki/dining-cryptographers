@@ -23,7 +23,7 @@ In DC-Net there are 3 main security problems:
 
 AV-Nets solves them:
 * Chance for collision is negligible, intentional collisions are as hard to do as DDH
-* Proofs to secrets are required
+* Proofs of secrets are required
 * Setup time is linear, it involves a single exponentiation from every participant
 
 
