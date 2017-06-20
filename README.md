@@ -1,10 +1,11 @@
 # Dining cryptographers
 
 Project contains implementations of following protocols used to solve the dining cryptographers problem:
-| Protocol             | Paper                                                                                | Authors                   |
-|----------------------|--------------------------------------------------------------------------------------|---------------------------|
-| DC-Net               | The Dining Cryptographers Problem: Unconditional Sender and Recipient Untraceability | David Chaum               |
-| [In progress] AV-Net | A 2-Round Anonymous Veto Protocol                                                    | Feng Hao, Piotr Zielinski |
+
+Protocol             | Paper                                                                                | Authors                   
+-------------------- | ------------------------------------------------------------------------------------ | ---------------------------
+DC-Net              | The Dining Cryptographers Problem: Unconditional Sender and Recipient Untraceability | David Chaum               
+[In progress] AV-Net | A 2-Round Anonymous Veto Protocol                                                    | Feng Hao, Piotr Zielinski 
 
 # Problem statement
 
