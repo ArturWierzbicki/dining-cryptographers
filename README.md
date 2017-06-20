@@ -32,7 +32,14 @@ AV-Net implementation still does not have built in zero knowledge proofs. They s
 ### AV-Net primitives
 
 AV-Net implementation uses 2 cryptographic primitives:
-* Zero knowledge proofs for making sure that participants can not change their vote after gaining knowledge of other peoples vote
+* Zero knowledge proofs for making sure that participants can not change their vote after gaining knowledge of other peoples vote, it should be non interactive and might follow algorithm below:
+1. P wants to proof he knows x where y = g^x
+2. P picks a random v and computes t = g^v and keeps it as first term of the proof
+3. P computes c = H(g,y,t)
+4. P computes r = v - cx and keeps it as second term of the proof
+5. V checks t = g^r * y^H(g,y,t)
+
+
 * DDH problem hardness to make sure that last participant of protocol can not change a non-1 result into 1
 
 
